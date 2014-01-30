@@ -21,3 +21,89 @@ Database Models
 Download MySQLWorkbench files: [contoh-aplikasi1.mwb](https://github.com/astondihor/contoh-aplikasi1/raw/master/DBModel/contoh-aplikasi1.mwb)
 
 [![Databse Model 1](https://raw.github.com/astondihor/contoh-aplikasi1/master/DBModel/users_roles_throttle_permissions_th.jpg)](https://raw.github.com/astondihor/contoh-aplikasi1/master/DBModel/users_roles_throttle_permissions.jpg)
+
+
+## Contoh RBAC
+
+User dengan ID: 45
+Role: admin (ID: 6)
+Permission: Boleh membuka module users semua aksi.
+
+User dengan ID: 46
+Role: user (ID: 5)
+Permission: Hanya bisa melihat account sendiri, edit profile, change
+password.
+
+Table: role_user
+<table>
+<tr>
+<th>role_id</th>
+<th>user_id</th>
+</tr>
+<tr>
+<td>6</td>
+<td>45</td>
+</tr>
+<tr>
+<td>5</td>
+<td>46</td>
+</tr>
+</table>
+
+Table: Permission
+
+<table>
+  <thead>
+    <tr>
+      <th>id</th>
+      <th>role_id</th>
+      <th>type</th>
+      <th>action</th>
+      <th>resource</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>6</td>
+      <td>allow</td>
+      <td>manage</td>
+      <td>users</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>6</td>
+      <td>allow</td>
+      <td>view</td>
+      <td>users</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>6</td>
+      <td>allow</td>
+      <td>create</td>
+      <td>users</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>6</td>
+      <td>allow</td>
+      <td>update</td>
+      <td>users</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>6</td>
+      <td>allow</td>
+      <td>delete</td>
+      <td>users</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>5</td>
+      <td>allow</td>
+      <td>edit</td>
+      <td>profile</td>
+    </tr>
+  </tbody>
+</table>
