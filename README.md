@@ -18,6 +18,6 @@ Database menggunakan MySQL.
 Database Models
 ---------------
 
-MySQLWorkbench files: [contoh-aplikasi1.mwb](https://github.com/astondihor/contoh-aplikasi1/raw/master/DBModel/contoh-aplikasi1.mwb)
+Download MySQLWorkbench files: [contoh-aplikasi1.mwb](https://github.com/astondihor/contoh-aplikasi1/raw/master/DBModel/contoh-aplikasi1.mwb)
 
-[![Databse Model 1](https://github.com/astondihor/contoh-applikasi1/raw/master/DBModel/users_roles_throttle_permissions_th.jpg)](https://github.com/astondihor/contoh-applikasi1/raw/master/DBModel/users_roles_throttle_permissions.jpg)
+[![Databse Model 1](https://raw.github.com/astondihor/contoh-aplikasi1/master/DBModel/users_roles_throttle_permissions_th.jpg)](https://raw.github.com/astondihor/contoh-aplikasi1/master/DBModel/users_roles_throttle_permissions.jpg)
