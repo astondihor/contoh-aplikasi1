@@ -34,6 +34,25 @@ Role: user (ID: 5)
 Permission: Hanya bisa melihat account sendiri, edit profile, change
 password.
 
+Table: roles
+<table>
+  <tr>
+    <th>id</th>
+    <th>role_name</th>
+    <th>inherited</th>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>user</td>
+    <td>NULL</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>admin</td>
+    <td>NULL</td>
+  </tr>
+</table>
+
 Table: role_user
 <table>
 <tr>
