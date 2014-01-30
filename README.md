@@ -8,3 +8,16 @@ Ini dimaksudkan untuk memberikan gambaran kepada yang membutuhkan sebuah aplikas
 Masih banyak kekurangan dalam aplikasi ini, ini masih dalam tahap belajar. Semoga dapat memberikan sesuatu kepada pengunjung. Apapun itu. :)
 
 Untuk sementara dapat dilihat demo disini: [astondihor.animousconsulting.com](http://astondihor.animousconsulting.com)
+
+
+Database
+--------
+
+Database menggunakan MySQL.
+
+Database Models
+---------------
+
+MySQLWorkbench files: [contoh-aplikasi1.mwb](https://github.com/astondihor/contoh-aplikasi1/raw/master/DBModel/contoh-aplikasi1.mwb)
+
+[![Databse Model 1](https://github.com/astondihor/contoh-applikasi1/raw/master/DBModel/users_roles_throttle_permissions_th.jpg)](https://github.com/astondihor/contoh-applikasi1/raw/master/DBModel/users_roles_throttle_permissions.jpg)
