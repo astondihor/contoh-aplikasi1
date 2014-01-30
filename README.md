@@ -34,6 +34,23 @@ Role: user (ID: 5)
 Permission: Hanya bisa melihat account sendiri, edit profile, change
 password.
 
+Table: user
+<table>
+<tr>
+<th>id</th>
+<th>username</th>
+</tr>
+<tr>
+<td>45</td>
+<td>aston</td>
+</tr>
+<tr>
+<td>46</td>
+<td>barak-oh-bama</td>
+</tr>
+</table>
+
+
 Table: roles
 <table>
   <tr>
