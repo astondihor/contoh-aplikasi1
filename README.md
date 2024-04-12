@@ -1,7 +1,7 @@
 Contoh Aplikasi1
 ================
 
-Hanya sebuah contoh aplikasi yang saya buat menggunakan PHP Laravel 4.1.x [catatan](./docs/catatan.md)
+Hanya sebuah contoh aplikasi yang saya buat menggunakan PHP Laravel 4.1.x [catatan](./docs/catatan.md) [catatan](https://github.com/astondihor/contoh-aplikasi1/blob/5da51f3aded2eda2f6f8b8b7e2ef189f7b977d1d/docs/catatan.md)
 
 Ini dimaksudkan untuk memberikan gambaran kepada yang membutuhkan sebuah aplikasi yang memiliki RBAC (Role Based Access Control).
 
